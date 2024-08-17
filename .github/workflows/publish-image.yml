@@ -6,7 +6,12 @@ jobs:
   build_and_publish:
     strategy:
       matrix:
-        platform: [moddwarf-new]
+        platform:
+          [
+            modduo-new,
+            modduox-new,
+            moddwarf-new,
+          ]
 
     runs-on: ubuntu-latest
 
