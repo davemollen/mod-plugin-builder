@@ -6,12 +6,7 @@ jobs:
   build_and_publish:
     strategy:
       matrix:
-        platform:
-          [
-            modduo-new,
-            modduox-new,
-            moddwarf-new,
-          ]
+        platform: [modduo-new, modduox-new, moddwarf-new, darkglass-anagram]
 
     runs-on: ubuntu-latest
 
